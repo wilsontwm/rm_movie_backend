@@ -18,10 +18,12 @@ go run main.go
 
 ## API Examples
 
-GET /tmdb/discover
+GET /tmdb/discover :
+
 This will send a GET request to https://api.themoviedb.org/3/discover/movie to get the list of movies. Upon retrieval of the movies, the information of the photo of each movie will be retrieved and stored in local file system and database
 
-GET /movie/search
+GET /movie/search :
+
 This will search through the movie photos stored in the database. It also allows searching by keyword in photo name,description, filename or original link
 
 Examples:
